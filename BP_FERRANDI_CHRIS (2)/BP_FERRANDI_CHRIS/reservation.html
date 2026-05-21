@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation — Chrysalide</title>
+    <meta name="description" content="Réservez votre table au restaurant Chrysalide à Lyon. Service du soir principal. Capacité : 35 couverts.">
+    <link rel="canonical" href="https://chrysalide-lyon.fr/reservation.html">
+    <link rel="alternate" hreflang="fr" href="https://chrysalide-lyon.fr/reservation.html">
+    <link rel="alternate" hreflang="en" href="https://chrysalide-lyon.fr/en/reservation.html">
+    <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#contenu" class="skip-link">Aller au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="site-logo" aria-label="Chrysalide — Accueil">
+                <img src="assets/logo/chrysalide-logo.svg" alt="" width="160" height="56">
+            </a>
+            <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="menus.html">Menus</a></li>
+                    <li><a href="reservation.html" class="btn-cta" aria-current="page">Réserver</a></li>
+                </ul>
+                <div class="lang-switch" aria-label="Choix de la langue">
+                    <a href="reservation.html" aria-current="true" lang="fr">FR</a>
+                    <span aria-hidden="true">|</span>
+                    <a href="en/reservation.html" lang="en">EN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+        <section class="page-header">
+            <div class="container">
+                <h1>Réservez votre table</h1>
+                <p class="subtitle">Le service du soir est notre service principal</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="reservation-grid">
+
+                    <div class="reservation-info">
+                        <h2>Vivre l'expérience</h2>
+                        <hr class="divider divider-left">
+                        <p>Le service du soir est notre service principal. Capacité : 35 couverts. Pensez à réserver suffisamment à l'avance.</p>
+                        <p>Nous reviendrons vers vous dans les 24h pour confirmer votre demande.</p>
+
+                        <div class="info-bloc">
+                            <h3>Horaires</h3>
+                            <table class="horaires-table" style="margin-top: 0.5rem;">
+                                <tbody>
+                                    <tr><td>Lundi</td><td class="ferme">Fermé</td></tr>
+                                    <tr><td>Mardi</td><td>12h–13h15 · 20h–21h15</td></tr>
+                                    <tr><td>Mercredi</td><td>20h–21h15</td></tr>
+                                    <tr><td>Jeudi</td><td>20h–21h15</td></tr>
+                                    <tr><td>Vendredi</td><td>12h–13h15 · 20h–21h15</td></tr>
+                                    <tr><td>Samedi</td><td>12h–13h15 · 20h–21h15</td></tr>
+                                    <tr><td>Dimanche</td><td class="ferme">Fermé</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="info-bloc">
+                            <h3>Par téléphone</h3>
+                            <p style="margin-bottom: 0.4rem;">Vous préférez réserver par téléphone ?</p>
+                            <p style="font-family: var(--font-titre); font-size: 1.3rem; color: var(--brun-profond);"><a href="tel:+33478991201">04 78 99 12 01</a></p>
+                        </div>
+
+                        <div class="info-bloc">
+                            <h3>Groupes &amp; privatisation</h3>
+                            <p>Pour les groupes de plus de 8 convives ou les privatisations, contactez-nous directement à <a href="mailto:chrysalidelyon@outlook.fr">chrysalidelyon@outlook.fr</a>.</p>
+                        </div>
+                    </div>
+
+                    <form class="reservation-form" id="reservation-form" action="#" method="POST" novalidate>
+                        <h2>Votre demande</h2>
+                        <hr class="divider">
+                        <p class="form-intro">Les champs marqués d'une <span style="color: var(--terracotta);">*</span> sont obligatoires.</p>
+
+                        <!-- Honeypot anti-bot (caché aux humains, doit rester vide) -->
+                        <div class="honeypot" aria-hidden="true">
+                            <label for="website">Ne pas remplir</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="prenom">Prénom <span class="required">*</span></label>
+                                <input type="text" id="prenom" name="prenom" required minlength="2" autocomplete="given-name">
+                            </div>
+                            <div>
+                                <label for="nom">Nom <span class="required">*</span></label>
+                                <input type="text" id="nom" name="nom" required minlength="2" autocomplete="family-name">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required autocomplete="email">
+                            </div>
+                            <div>
+                                <label for="telephone">Téléphone <span class="required">*</span></label>
+                                <input type="tel" id="telephone" name="telephone" required autocomplete="tel" placeholder="+33 6 12 34 56 78">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="date">Date souhaitée <span class="required">*</span></label>
+                                <input type="date" id="date" name="date" required>
+                                <p class="field-note" id="date-note" role="alert" aria-live="polite"></p>
+                            </div>
+                            <div>
+                                <label for="horaire">Horaire <span class="required">*</span></label>
+                                <select id="horaire" name="horaire" required>
+                                    <option value="">Choisir un créneau</option>
+                                    <optgroup label="Déjeuner (mar, ven, sam)">
+                                        <option value="12:00">12:00</option>
+                                        <option value="12:15">12:15</option>
+                                        <option value="12:30">12:30</option>
+                                        <option value="12:45">12:45</option>
+                                        <option value="13:00">13:00</option>
+                                    </optgroup>
+                                    <optgroup label="Dîner (mar–sam)">
+                                        <option value="20:00">20:00</option>
+                                        <option value="20:15">20:15</option>
+                                        <option value="20:30">20:30</option>
+                                        <option value="20:45">20:45</option>
+                                        <option value="21:00">21:00</option>
+                                    </optgroup>
+                                </select>
+                                <p class="field-note" id="horaire-note" aria-live="polite"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="convives">Nombre de convives <span class="required">*</span></label>
+                                <select id="convives" name="convives" required>
+                                    <option value="">Choisir</option>
+                                    <option value="1">1 personne</option>
+                                    <option value="2">2 personnes</option>
+                                    <option value="3">3 personnes</option>
+                                    <option value="4">4 personnes</option>
+                                    <option value="5">5 personnes</option>
+                                    <option value="6">6 personnes</option>
+                                    <option value="7">7 personnes</option>
+                                    <option value="8">8 personnes</option>
+                                </select>
+                                <p style="font-size: 0.8rem; color: var(--beige-mineral); font-style: italic; margin-top: 0.3rem;">Au-delà de 8, merci de nous contacter directement.</p>
+                            </div>
+                            <div>
+                                <label for="menu_pressenti">Menu pressenti</label>
+                                <select id="menu_pressenti" name="menu_pressenti">
+                                    <option value="">—</option>
+                                    <option value="chrysalide">Menu Chrysalide — 75 €</option>
+                                    <option value="eclosion">Menu Éclosion — 121 €</option>
+                                    <option value="indecis">Indécis(e)</option>
+                                </select>
+                                <p class="field-note" id="menu-pressenti-note" aria-live="polite"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="allergies">Allergies ou régimes particuliers</label>
+                            <textarea id="allergies" name="allergies" data-max="500" placeholder="Allergies, intolérances, régime végétarien…"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="occasion">Occasion particulière</label>
+                            <textarea id="occasion" name="occasion" data-max="300" placeholder="Anniversaire, repas d'affaires, romantique…"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message libre</label>
+                            <textarea id="message" name="message" data-max="1000" placeholder="Toute information complémentaire…"></textarea>
+                        </div>
+
+                        <div class="form-consent">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">
+                                J'accepte que mes données soient utilisées uniquement pour traiter ma demande de réservation. <span class="required">*</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Envoyer ma demande</button>
+
+                        <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
+
+                        <p class="form-rgpd">Vos données ne sont utilisées que pour traiter votre demande de réservation.</p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Chrysalide</h3>
+                    <p class="baseline">Concentrer, transformer, révéler</p>
+                    <p>Restaurant gastronomique au cœur du Lyon 1<sup>er</sup>. Une approche modernisée de la cuisson en croûte.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menus.html">Menus</a></li>
+                        <li><a href="reservation.html">Réservation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="presse.html">Presse</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Nous trouver</h4>
+                    <ul>
+                        <li>11 rue Chavanne</li>
+                        <li>69001 Lyon</li>
+                        <li>Du mardi au samedi</li>
+                        <li><a href="mailto:chrysalidelyon@outlook.fr">chrysalidelyon@outlook.fr</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Suivre</h4>
+                    <ul>
+                        <li><a href="https://instagram.com/chrysalide.lyon" target="_blank" rel="noopener noreferrer">@chrysalide.lyon</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Chrysalide — Tous droits réservés</span>
+                <span class="footer-legal">
+                    <a href="contact.html">Mentions légales</a>
+                    <a href="contact.html">Politique de confidentialité</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+    "nav": {
+        "home": "Home",
+        "concept": "Concept",
+        "menus": "Our menus",
+        "carte": "À la carte",
+        "drinks": "Drinks",
+        "producers": "Our producers",
+        "booking": "Booking",
+        "contact": "Contact",
+        "book_cta": "Book"
+    },
+    "global": {
+        "baseline": "Concentrate, transform, reveal",
+        "signature": "The shell concentrates, the heat transforms, the opening reveals. Three gestures, one single dish.",
+        "book_table": "Book a table",
+        "discover_concept": "Discover the concept",
+        "taxes_included": "All prices are in euros, taxes and service included.",
+        "allergens": "Our products may contain allergens. Please inform us of any allergies.",
+        "wine_pairing": "Wine pairing",
+        "tuesday_saturday": "Tuesday to Saturday",
+        "address": "11 rue Chavanne, 69001 Lyon",
+        "email": "chrysalidelyon@outlook.fr",
+        "instagram": "@chrysalide.lyon",
+        "capacity": "35 seats"
+    },
+    "home": {
+        "hero_title": "Chrysalide",
+        "pitch": "Chrysalide is a fine-dining restaurant in the 1st arrondissement of Lyon, focused on a modern approach to crust cooking. We explore this technique in all its forms to concentrate the essence of each ingredient and the transfer of flavours.",
+        "section_cuisine_title": "A cuisine of the shell",
+        "section_menus_title": "Two menus, one revelation",
+        "section_producers_title": "Our producers",
+        "section_visit_title": "Come and see us"
+    },
+    "concept": {
+        "title": "Concept",
+        "subtitle": "Concentrate, transform, reveal",
+        "name_title": "The name",
+        "name_text": "The name Chrysalide perfectly matched the thread of our reflection. The chrysalis is the state of transformation, the transition between the caterpillar and the butterfly. It represents a closed space where an invisible metamorphosis takes place — universally understood. This imagery directly echoes our cuisine, centred on crust cooking and slow-braised techniques, where ingredients evolve in a cocoon and finally reveal themselves at the moment of service.",
+        "logo_title": "The logo",
+        "logo_text": "The logo depicts a broken crust seen from the side — the symbol of the key moment of the experience: the opening of the shell, where aromas and flavours are revealed. Its minimal, refined line underlines the contemporary gastronomic approach of the project.",
+        "da_title": "Art direction",
+        "da_text": "The visual identity of Chrysalide is rooted in a wabi-sabi aesthetic blended with a rustic, ancient influence. Wabi-sabi celebrates imperfection and simplicity, directly in tune with a kitchen that transforms, preserves and reveals flavours. The rustic universe anchors the project in something tangible and sincere.",
+        "values_title": "Our values",
+        "founders_title": "The team"
+    },
+    "booking": {
+        "title": "Book your table",
+        "intro": "Evening service is our main service. Capacity: 35 seats. Please book well in advance.",
+        "success": "Thank you, we will get back to you within 24 hours.",
+        "error": "An error occurred. Please contact us directly at chrysalidelyon@outlook.fr.",
+        "rgpd": "Your data is used only to process your booking request."
+    }
+}

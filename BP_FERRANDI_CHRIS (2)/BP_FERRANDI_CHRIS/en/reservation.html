@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking — Chrysalide</title>
+    <meta name="description" content="Book your table at Chrysalide, fine-dining restaurant in Lyon. Evening service. Capacity: 35 seats.">
+    <link rel="canonical" href="https://chrysalide-lyon.fr/en/reservation.html">
+    <link rel="alternate" hreflang="fr" href="https://chrysalide-lyon.fr/reservation.html">
+    <link rel="alternate" hreflang="en" href="https://chrysalide-lyon.fr/en/reservation.html">
+    <link rel="icon" href="../assets/logo/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <a href="#contenu" class="skip-link">Skip to content</a>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="site-logo"><img src="../assets/logo/chrysalide-logo.svg" alt="" width="160" height="56"></a>
+            <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menus.html">Menus</a></li>
+                    <li><a href="reservation.html" class="btn-cta" aria-current="page">Book</a></li>
+                </ul>
+                <div class="lang-switch"><a href="../reservation.html" lang="fr">FR</a><span aria-hidden="true">|</span><a href="reservation.html" aria-current="true" lang="en">EN</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+        <section class="page-header">
+            <div class="container">
+                <h1>Book your table</h1>
+                <p class="subtitle">Evening service is our main service</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="reservation-grid">
+
+                    <div class="reservation-info">
+                        <h2>Experience Chrysalide</h2>
+                        <hr class="divider divider-left">
+                        <p>Evening service is our main service. Capacity: 35 seats. Please book well in advance.</p>
+                        <p>We will get back to you within 24 hours to confirm your request.</p>
+
+                        <div class="info-bloc">
+                            <h3>Hours</h3>
+                            <table class="horaires-table" style="margin-top: 0.5rem;">
+                                <tbody>
+                                    <tr><td>Monday</td><td class="ferme">Closed</td></tr>
+                                    <tr><td>Tuesday</td><td>12–1:15 pm · 8–9:15 pm</td></tr>
+                                    <tr><td>Wednesday</td><td>8–9:15 pm</td></tr>
+                                    <tr><td>Thursday</td><td>8–9:15 pm</td></tr>
+                                    <tr><td>Friday</td><td>12–1:15 pm · 8–9:15 pm</td></tr>
+                                    <tr><td>Saturday</td><td>12–1:15 pm · 8–9:15 pm</td></tr>
+                                    <tr><td>Sunday</td><td class="ferme">Closed</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="info-bloc">
+                            <h3>By phone</h3>
+                            <p style="margin-bottom: 0.4rem;">Prefer to book by phone?</p>
+                            <p style="font-family: var(--font-titre); font-size: 1.3rem; color: var(--brun-profond);"><a href="tel:+33478991201">+33 4 78 99 12 01</a></p>
+                        </div>
+
+                        <div class="info-bloc">
+                            <h3>Groups &amp; private events</h3>
+                            <p>For groups of more than 8 guests or private events, please contact us at <a href="mailto:chrysalidelyon@outlook.fr">chrysalidelyon@outlook.fr</a>.</p>
+                        </div>
+                    </div>
+
+                    <form class="reservation-form" id="reservation-form" action="#" method="POST" novalidate>
+                        <h2>Your request</h2>
+                        <hr class="divider">
+                        <p class="form-intro">Fields marked with <span style="color: var(--terracotta);">*</span> are required.</p>
+
+                        <div class="honeypot" aria-hidden="true">
+                            <label for="website">Do not fill in</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <div class="form-row">
+                            <div><label for="prenom">First name <span class="required">*</span></label><input type="text" id="prenom" name="prenom" required minlength="2" autocomplete="given-name"></div>
+                            <div><label for="nom">Last name <span class="required">*</span></label><input type="text" id="nom" name="nom" required minlength="2" autocomplete="family-name"></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div><label for="email">Email <span class="required">*</span></label><input type="email" id="email" name="email" required autocomplete="email"></div>
+                            <div><label for="telephone">Phone <span class="required">*</span></label><input type="tel" id="telephone" name="telephone" required autocomplete="tel" placeholder="+33 6 12 34 56 78"></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="date">Date <span class="required">*</span></label>
+                                <input type="date" id="date" name="date" required>
+                                <p class="field-note" id="date-note" role="alert" aria-live="polite"></p>
+                            </div>
+                            <div>
+                                <label for="horaire">Time <span class="required">*</span></label>
+                                <select id="horaire" name="horaire" required>
+                                    <option value="">Choose a slot</option>
+                                    <optgroup label="Lunch (Tue, Fri, Sat)">
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="12:15">12:15 PM</option>
+                                        <option value="12:30">12:30 PM</option>
+                                        <option value="12:45">12:45 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                    </optgroup>
+                                    <optgroup label="Dinner (Tue–Sat)">
+                                        <option value="20:00">8:00 PM</option>
+                                        <option value="20:15">8:15 PM</option>
+                                        <option value="20:30">8:30 PM</option>
+                                        <option value="20:45">8:45 PM</option>
+                                        <option value="21:00">9:00 PM</option>
+                                    </optgroup>
+                                </select>
+                                <p class="field-note" id="horaire-note" aria-live="polite"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="convives">Number of guests <span class="required">*</span></label>
+                                <select id="convives" name="convives" required>
+                                    <option value="">Choose</option>
+                                    <option value="1">1 guest</option><option value="2">2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option><option value="7">7 guests</option><option value="8">8 guests</option>
+                                </select>
+                                <p style="font-size: 0.8rem; color: var(--beige-mineral); font-style: italic; margin-top: 0.3rem;">For more than 8 guests, please contact us directly.</p>
+                            </div>
+                            <div>
+                                <label for="menu_pressenti">Preferred menu</label>
+                                <select id="menu_pressenti" name="menu_pressenti">
+                                    <option value="">—</option>
+                                    <option value="chrysalide">Menu Chrysalide — €75</option>
+                                    <option value="eclosion">Menu Éclosion — €121</option>
+                                    <option value="indecis">Undecided</option>
+                                </select>
+                                <p class="field-note" id="menu-pressenti-note" aria-live="polite"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="allergies">Allergies or dietary requirements</label>
+                            <textarea id="allergies" name="allergies" data-max="500" placeholder="Allergies, intolerances, vegetarian diet…"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="occasion">Special occasion</label>
+                            <textarea id="occasion" name="occasion" data-max="300" placeholder="Birthday, business, romantic…"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Free message</label>
+                            <textarea id="message" name="message" data-max="1000" placeholder="Any additional information…"></textarea>
+                        </div>
+
+                        <div class="form-consent">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I accept that my data is used only to process my booking request. <span class="required">*</span></label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send my request</button>
+
+                        <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
+
+                        <p class="form-rgpd">Your data is used only to process your booking request.</p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><h3>Chrysalide</h3><p class="baseline">Concentrate, transform, reveal</p><p>Fine dining restaurant in the heart of Lyon 1<sup>st</sup>.</p></div>
+                <div><h4>Find us</h4><ul><li>11 rue Chavanne</li><li>69001 Lyon, France</li><li>Tuesday to Saturday</li><li><a href="mailto:chrysalidelyon@outlook.fr">chrysalidelyon@outlook.fr</a></li></ul></div>
+                <div><h4>Follow</h4><ul><li><a href="https://instagram.com/chrysalide.lyon" target="_blank" rel="noopener noreferrer">@chrysalide.lyon</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 Chrysalide — All rights reserved</span><span class="footer-legal"><a href="contact.html">Legal notice</a><a href="contact.html">Privacy policy</a></span></div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

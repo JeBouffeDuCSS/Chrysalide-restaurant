@@ -1,0 +1,54 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "concept": "Le concept",
+        "menus": "Nos menus",
+        "carte": "Notre carte",
+        "drinks": "Boisson",
+        "producers": "Nos producteurs",
+        "booking": "Réservation",
+        "contact": "Contact",
+        "book_cta": "Réserver"
+    },
+    "global": {
+        "baseline": "Concentrer, transformer, révéler",
+        "signature": "L'enveloppe concentre, la chaleur transforme, l'ouverture révèle. Trois gestes, un seul plat.",
+        "book_table": "Réserver une table",
+        "discover_concept": "Découvrir le concept",
+        "taxes_included": "Tous nos prix sont en euros, taxes et service compris.",
+        "allergens": "Nos produits sont susceptibles de contenir des allergènes à déclaration obligatoire, merci de nous en faire part.",
+        "wine_pairing": "Accords Mets & Vins",
+        "tuesday_saturday": "Du mardi au samedi",
+        "address": "11 rue Chavanne, 69001 Lyon",
+        "email": "chrysalidelyon@outlook.fr",
+        "instagram": "@chrysalide.lyon",
+        "capacity": "35 couverts"
+    },
+    "home": {
+        "hero_title": "Chrysalide",
+        "pitch": "Chrysalide est un restaurant gastronomique dans le 1er arrondissement de Lyon, qui met en avant une approche modernisée de la cuisson en croûte. Nous développons cette technique sous toutes ses formes pour concentrer l'essence des produits et le transfert des saveurs.",
+        "section_cuisine_title": "Une cuisine de l'enveloppe",
+        "section_menus_title": "Deux menus, une révélation",
+        "section_producers_title": "Nos producteurs",
+        "section_visit_title": "Venir nous voir"
+    },
+    "concept": {
+        "title": "Le concept",
+        "subtitle": "Concentrer, transformer, révéler",
+        "name_title": "Le nom",
+        "name_text": "Le choix du nom Chrysalide concordait parfaitement avec le fil de notre réflexion. La chrysalide, c'est l'état de transformation, de transition entre la chenille et le papillon. Elle représente un espace fermé où s'opère une métamorphose invisible, parlante pour tous. Cette symbolique fait directement écho à notre cuisine, centrée sur la cuisson en croûte et à l'étouffée, où les produits évoluent dans un cocon, et finissent par se révéler lors du service.",
+        "logo_title": "Le logo",
+        "logo_text": "Le logo représente une croûte brisée vue de côté, symbole de l'instant clé de l'expérience : l'ouverture de la croûte, où les arômes et les saveurs se révèlent. Son dessin minimaliste et épuré souligne l'approche gastronomique et contemporaine du projet.",
+        "da_title": "Direction artistique",
+        "da_text": "L'identité visuelle de Chrysalide s'inscrit dans une esthétique wabi-sabi, mixée à une influence rustique et ancienne. Le wabi-sabi valorise l'idée d'imperfection et de simplicité, en lien direct avec notre cuisine, qui travaille la transformation, la préservation et la révélation des saveurs. L'univers rustique vient ancrer le projet dans quelque chose de tangible et de sincère.",
+        "values_title": "Nos valeurs",
+        "founders_title": "L'équipe"
+    },
+    "booking": {
+        "title": "Réservez votre table",
+        "intro": "Le service du soir est notre service principal. Capacité : 35 couverts. Pensez à réserver suffisamment à l'avance.",
+        "success": "Merci, nous reviendrons vers vous sous 24h.",
+        "error": "Une erreur est survenue, contactez-nous directement à chrysalidelyon@outlook.fr.",
+        "rgpd": "Vos données ne sont utilisées que pour traiter votre demande de réservation."
+    }
+}

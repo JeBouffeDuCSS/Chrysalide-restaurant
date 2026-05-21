@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus — Chrysalide</title>
+    <meta name="description" content="Menus dégustation Chrysalide (75 €) et Éclosion (121 €), carte du midi, offre liquide — Chrysalide, restaurant gastronomique à Lyon.">
+    <link rel="canonical" href="https://chrysalide-lyon.fr/menus.html">
+    <link rel="alternate" hreflang="fr" href="https://chrysalide-lyon.fr/menus.html">
+    <link rel="alternate" hreflang="en" href="https://chrysalide-lyon.fr/en/menus.html">
+    <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#contenu" class="skip-link">Aller au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="site-logo" aria-label="Chrysalide — Accueil">
+                <img src="assets/logo/chrysalide-logo.svg" alt="" width="160" height="56">
+            </a>
+            <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="menus.html" aria-current="page">Menus</a></li>
+                    <li><a href="reservation.html" class="btn-cta">Réserver</a></li>
+                </ul>
+                <div class="lang-switch" aria-label="Choix de la langue">
+                    <a href="menus.html" aria-current="true" lang="fr">FR</a>
+                    <span aria-hidden="true">|</span>
+                    <a href="en/menus.html" lang="en">EN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+        <section class="page-header">
+            <div class="container">
+                <h1>Menus</h1>
+                <p class="subtitle">Été — du mardi au samedi</p>
+            </div>
+        </section>
+
+        <section style="padding-top: 3rem;">
+            <div class="container">
+
+                <!-- Onglets -->
+                <div class="table-tabs" role="tablist" aria-label="Sélection de la carte">
+                    <button class="table-tab" role="tab" aria-selected="true" aria-controls="menus" id="tab-menus">Menus dégustation</button>
+                    <button class="table-tab" role="tab" aria-selected="false" aria-controls="carte" id="tab-carte">À la carte</button>
+                    <button class="table-tab" role="tab" aria-selected="false" aria-controls="boissons" id="tab-boissons">Boisson</button>
+                </div>
+
+                <!-- ===================== MENUS ===================== -->
+                <div class="table-panel is-active" id="menus" role="tabpanel" aria-labelledby="tab-menus">
+
+                    <div class="menu-tabs" role="tablist" aria-label="Sélection du menu dégustation" style="margin-bottom: 3rem;">
+                        <button class="menu-tab" role="tab" aria-selected="true" aria-controls="chrysalide" id="tab-chrysalide">Chrysalide</button>
+                        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="eclosion" id="tab-eclosion">Éclosion</button>
+                    </div>
+
+                    <div class="menu-panel is-active" id="chrysalide" role="tabpanel" aria-labelledby="tab-chrysalide">
+                        <article class="menu-card">
+                            <header class="menu-card-header">
+                                <h2>Menu Chrysalide</h2>
+                                <p class="menu-card-price">75 €</p>
+                                <p class="menu-card-sub">Été — service du soir</p>
+                            </header>
+
+                            <p class="menu-marker">— Prélude —</p>
+                            
+
+                            <p class="menu-categorie">Entrée</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Aubergine en argile kaolinite et charbon de bouleau</p>
+                                <p class="menu-plat-desc">condiment de tomate noire de Crimée, huile de basilic.</p>
+                            </div>
+
+                            <p class="menu-categorie">Poisson</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Rouget barbet de Méditerranée en manteau de sel et d'algue</p>
+                                <p class="menu-plat-desc">fenouil, chou rave, endive crue, écume safranée au pastis réduit.</p>
+                            </div>
+
+                            <p class="menu-categorie">Viande</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Carré d'agneau en enveloppe d'herbe et de fleur</p>
+                                <p class="menu-plat-desc">millefeuille de pomme de terre, jus court aux olives et anchois.</p>
+                            </div>
+
+                            <p class="menu-categorie">Desserts</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Framboise en meringue de sapin</p>
+                                <p class="menu-plat-desc">sorbet poivré, pickles d'épicéa et thé genmaicha.</p>
+                            </div>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Abricot en coque de café</p>
+                                <p class="menu-plat-desc">sarriette et camomille.</p>
+                            </div>
+
+                            <p class="menu-marker">— Épilogue —</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-desc">Du fromage sélectionné par le Meilleur Ouvrier de France <strong>Christian Janier</strong> vous sera proposé avant le dessert, au prix de 15 €.</p>
+                            </div>
+
+                            <div class="menu-footer">
+                                <strong>Menu à 75 € — taxes et service compris</strong>
+                                <p class="accord">Accords Mets &amp; Vins à 30 €</p>
+                                <p class="allergenes">Pour toute allergie, merci de nous en faire part.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="menu-panel" id="eclosion" role="tabpanel" aria-labelledby="tab-eclosion">
+                        <article class="menu-card">
+                            <header class="menu-card-header">
+                                <h2>Menu Éclosion</h2>
+                                <p class="menu-card-price">121 €</p>
+                                <p class="menu-card-sub">Été — service du soir</p>
+                            </header>
+
+                            <p class="menu-marker">— Prélude —</p>
+
+                            <p class="menu-categorie">Entrées</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Aubergine en argile kaolinite et charbon de bouleau</p>
+                                <p class="menu-plat-desc">condiment de tomate noire de Crimée, huile de basilic.</p>
+                            </div>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Pithiviers de ris de veau</p>
+                                <p class="menu-plat-desc">sandre et lard de Colonnata, jus de poisson corsé.</p>
+                            </div>
+
+                            <p class="menu-categorie">Poisson</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Rouget barbet de Méditerranée en manteau de sel et d'algue</p>
+                                <p class="menu-plat-desc">fenouil, chou rave, endive crue, écume safranée au pastis réduit.</p>
+                            </div>
+
+                            <p class="menu-categorie">Viandes</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Carré d'agneau en enveloppe d'herbes et de fleurs</p>
+                                <p class="menu-plat-desc">millefeuille de pomme de terre, jus court aux olives et anchois.</p>
+                            </div>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Pigeon de la Coulonnière</p>
+                                <p class="menu-plat-desc">chrysalide de cerise noire des Hautes-Alpes et poivre de Timut, oignon doux des Cévennes confit, girolle et jus court au verjus.</p>
+                            </div>
+
+                            <p class="menu-categorie">Desserts</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Framboises cuites en meringue de sapin</p>
+                                <p class="menu-plat-desc">sorbet poivré, pickles d'épicéa et thé genmaicha.</p>
+                            </div>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Abricot en coque de café</p>
+                                <p class="menu-plat-desc">sarriette et camomille.</p>
+                            </div>
+                            <div class="menu-plat">
+                                <p class="menu-plat-nom">Maïs rôti en écorce de grué</p>
+                                <p class="menu-plat-desc">chocolat, miso et piment d'Espelette.</p>
+                            </div>
+
+                            <p class="menu-marker">— Épilogue —</p>
+                            <div class="menu-plat">
+                                <p class="menu-plat-desc">Du fromage sélectionné par le Meilleur Ouvrier de France <strong>Christian Janier</strong> vous sera proposé avant le dessert, au prix de 15 €.</p>
+                            </div>
+
+                            <div class="menu-footer">
+                                <strong>Menu à 121 € — taxes et service compris</strong>
+                                <p class="accord">Accords Mets &amp; Vins à 45 €</p>
+                                <p class="allergenes">Nos produits sont susceptibles de contenir des allergènes à déclaration obligatoire, merci de nous en faire part.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- ===================== CARTE ===================== -->
+                <div class="table-panel" id="carte" role="tabpanel" aria-labelledby="tab-carte">
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <p style="text-align: center; font-family: var(--font-titre); font-style: italic; color: var(--beige-mineral); letter-spacing: 0.1em; margin-bottom: 3rem;">Carte d'été · service du midi</p>
+
+                        <div class="carte-section">
+                            <h2>Entrées</h2>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Aubergine scellée dans l'argile kaolinite et charbon de bouleau</p>
+                                    <p class="carte-item-desc">condiment de tomate noire de Crimée, huile de basilic.</p>
+                                </div>
+                                <div class="carte-item-prix">14 €</div>
+                            </div>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Pithiviers de ris de veau</p>
+                                    <p class="carte-item-desc">sandre et lard de Colonnata, jus de poisson corsé.</p>
+                                </div>
+                                <div class="carte-item-prix">23 €</div>
+                            </div>
+                        </div>
+
+                        <div class="carte-section">
+                            <h2>Plats</h2>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Rouget barbet de Méditerranée</p>
+                                    <p class="carte-item-desc">manteau de sel et d'algue, fenouil, chou rave, endive crue, écume safranée au pastis réduit.</p>
+                                </div>
+                                <div class="carte-item-prix">28 €</div>
+                            </div>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Carré d'agneau Aveyronnais</p>
+                                    <p class="carte-item-desc">enveloppe d'herbes et de fleurs, millefeuille de pomme de terre, jus court aux olives et anchois.</p>
+                                </div>
+                                <div class="carte-item-prix">31 €</div>
+                            </div>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Pigeon de la Coulonnière</p>
+                                    <p class="carte-item-desc">chrysalide de cerise noire des Hautes-Alpes, poivre de Timut, oignon doux des Cévennes confit, girolles et jus court au verjus.</p>
+                                </div>
+                                <div class="carte-item-prix">33 €</div>
+                            </div>
+                        </div>
+
+                        <div class="carte-section">
+                            <h2>Fromages</h2>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Sélection du Meilleur Ouvrier de France Christian Janier</p>
+                                </div>
+                                <div class="carte-item-prix">15 €</div>
+                            </div>
+                        </div>
+
+                        <div class="carte-section">
+                            <h2>Desserts</h2>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Abricot en coque de café</p>
+                                    <p class="carte-item-desc">sarriette et camomille.</p>
+                                </div>
+                                <div class="carte-item-prix">16 €</div>
+                            </div>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Maïs rôti en écorce de grué</p>
+                                    <p class="carte-item-desc">chocolat, miso et piment d'Espelette.</p>
+                                </div>
+                                <div class="carte-item-prix">16 €</div>
+                            </div>
+                            <div class="carte-item">
+                                <div class="carte-item-info">
+                                    <p class="carte-item-nom">Pavlova framboise cuite en meringue de sapin</p>
+                                    <p class="carte-item-desc">sorbet poivré, pickles d'épicéa et thé genmaicha.</p>
+                                </div>
+                                <div class="carte-item-prix">19 €</div>
+                            </div>
+                        </div>
+
+                        <div class="menu-footer" style="margin-top: 3rem;">
+                            <strong>Tous nos prix sont en euros, taxes et service compris</strong>
+                            <p class="allergenes">Nos produits sont susceptibles de contenir des allergènes à déclaration obligatoire, merci de nous en faire part.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===================== BOISSONS ===================== -->
+                <div class="table-panel" id="boissons" role="tabpanel" aria-labelledby="tab-boissons">
+                    <div style="max-width: 1000px; margin: 0 auto;">
+                        <div class="boissons-grid">
+                            <div class="carte-section">
+                                <h2>Cocktails</h2>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Negroni</p><p class="carte-item-desc">12 cl</p></div><div class="carte-item-prix">16 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Old Fashioned</p><p class="carte-item-desc">12 cl</p></div><div class="carte-item-prix">16 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Gin Tonic, aromates de saison</p><p class="carte-item-desc">12 cl</p></div><div class="carte-item-prix">14 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Spritz Champagne</p><p class="carte-item-desc">12 cl</p></div><div class="carte-item-prix">15 €</div></div>
+                            </div>
+
+                            <div class="carte-section">
+                                <h2>Bières artisanales</h2>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Dullion, « la Dorée »</p><p class="carte-item-desc">Blonde artisanale — 33 cl</p></div><div class="carte-item-prix">10 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Dullion, « la Rousse »</p><p class="carte-item-desc">Ambrée artisanale — 33 cl</p></div><div class="carte-item-prix">10 €</div></div>
+                            </div>
+
+                            <div class="carte-section">
+                                <h2>Softs</h2>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Jus de pêche de vigne</p><p class="carte-item-desc">Maison Alain Milliat — 25 cl</p></div><div class="carte-item-prix">12 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Jus de poire Williams</p><p class="carte-item-desc">Maison Alain Milliat — 25 cl</p></div><div class="carte-item-prix">12 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Nectar d'abricot</p><p class="carte-item-desc">Maison Milliat — 25 cl</p></div><div class="carte-item-prix">12 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Coca-Cola</p><p class="carte-item-desc">33 cl</p></div><div class="carte-item-prix">7 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Eau Châteldon</p><p class="carte-item-desc">75 cl</p></div><div class="carte-item-prix">9 €</div></div>
+                            </div>
+
+                            <div class="carte-section">
+                                <h2>Boissons chaudes</h2>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Café</p><p class="carte-item-desc">Maison Gonéo, torréfaction lyonnaise</p></div><div class="carte-item-prix">4 €</div></div>
+                                <div class="carte-item"><div class="carte-item-info"><p class="carte-item-nom">Infusions du moment</p></div><div class="carte-item-prix">5 €</div></div>
+                            </div>
+                        </div>
+
+                        <div class="menu-footer" style="margin-top: 3rem;">
+                            <strong>Tous nos prix sont en euros, taxes et service compris</strong>
+                        </div>
+
+                        <div class="note-vins" style="max-width: 700px; margin: 3rem auto 0;">
+                            La carte des vins et les accords mets-vins sont disponibles sur place. Notre équipe se fera un plaisir de vous conseiller.
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 5rem;">
+                    <a href="reservation.html" class="btn-dark">Réserver votre table</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Chrysalide</h3>
+                    <p class="baseline">Concentrer, transformer, révéler</p>
+                    <p>Restaurant gastronomique au cœur du Lyon 1<sup>er</sup>.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menus.html">Menus</a></li>
+                        <li><a href="reservation.html">Réservation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="presse.html">Presse</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Nous trouver</h4>
+                    <ul>
+                        <li>11 rue Chavanne</li>
+                        <li>69001 Lyon</li>
+                        <li>Du mardi au samedi</li>
+                        <li><a href="mailto:chrysalidelyon@outlook.fr">chrysalidelyon@outlook.fr</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Suivre</h4>
+                    <ul>
+                        <li><a href="https://instagram.com/chrysalide.lyon" target="_blank" rel="noopener noreferrer">@chrysalide.lyon</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Chrysalide — Tous droits réservés</span>
+                <span class="footer-legal">
+                    <a href="contact.html">Mentions légales</a>
+                    <a href="contact.html">Politique de confidentialité</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
